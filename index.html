@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TASTY Bakery Description Goes Here">
+    <meta
+      name="keywords"
+      content="doughnuts, cakes, croissants, macrons, pies"
+    >
+    <meta name="author" content="Alireza Mirzaahmadkermanshahi">
+    <title>Yummy Baked | TASTY Bakery | Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="bg-colored">
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">TASTY</span> Bakery</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="catering.html">catering</a></li>
+            <li><a href="order.html">Order</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase">
+      <div class="showcase-inner">
+        <div class="container">
+          <h2>The Most TASTY Treats</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            omnis distinctio tempore odio quos porro quaerat, laboriosam
+            repellendus, ab voluptas corrupti, maxime consequuntur recusandae
+            rem nisi voluptates amet quasi! Consectetur dicta cupiditate itaque
+            neque, in nam omnis mollitia quam quidem. Provident molestias.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="newsletter" class="bg-colored">
+      <div class="container">
+        <h3>Subscribe to Newsletter</h3>
+        <form>
+          <input
+            type="email"
+            name="email_address"
+            placeholder="Enter email..."
+            required="required"
+          ><button class="button-1" type="submit" name="subscribe">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./images/cake.png" alt="Cakes">
+          <h3>Cakes</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <img src="./images/doughnut.png" alt="Doughnut">
+          <h3>Doughnut</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+          <img src="./images/macarons.png" alt="Macarons">
+          <h3>Macarons</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Copyright &copy; <span class="year">2023</span> - TASTY Bakery</p>
+      </div>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document.querySelector('footer .container .year').textContent = year;
+    </script>
+  </body>
+</html>
